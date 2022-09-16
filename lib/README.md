@@ -7,7 +7,7 @@ This is simple npx project to bootstrap typescript project for creating packages
 1. Create typescript sample package
 
 ```
-npx @vs-org/create-typescript-package
+npx vs-create-typescript-package
 
 ```
 

@@ -1,6 +1,6 @@
 {
   "name": "@vs-org/create-typescript-package",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is simple npx command to create simple typescript boilerplate package.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -24,8 +24,9 @@
     "url": "https://github.com/vaibhav-sarwade-404/vs-create-typescipt-package/issues"
   },
   "homepage": "https://github.com/vaibhav-sarwade-404/vs-create-typescipt-package#readme",
+  "keywords": ["Create typescript package","typescript","create-typescript-package","create-typescript-package-demo","vs create typescript package","@vs-org/create-typescript-package"],
   "bin": {
-    "@vs-org/create-typescipt-package": "lib/index.js"
+    "vs-create-typescipt-package": "lib/index.js"
   },
   "dependencies": {
     "@types/fs-extra": "^9.0.13",
