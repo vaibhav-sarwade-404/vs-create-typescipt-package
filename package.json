@@ -1,0 +1,39 @@
+{
+  "name": "@vs-org/create-typescript-package",
+  "version": "0.0.1",
+  "description": "This is simple npx command to create simple typescript boilerplate package.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "rm -rf lib/ && tsc && npm run post-build",
+    "post-build": "node build-utils/post-build-script.js",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaibhav-sarwade-404/vs-create-typescipt-package.git"
+  },
+  "author": "Vaibhav Sarwade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vaibhav-sarwade-404/vs-create-typescipt-package/issues"
+  },
+  "homepage": "https://github.com/vaibhav-sarwade-404/vs-create-typescipt-package#readme",
+  "bin": {
+    "@vs-org/create-typescipt-package": "lib/index.js"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@vs-org/command-parser": "0.0.2",
+    "@vs-org/logger": "0.0.1",
+    "cross-env": "^7.0.3",
+    "fs-extra": "^10.1.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./lib",
+    "strict": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "downlevelIteration": true
+  },
+  "include": ["index.ts"],
+  "exclude": ["node_modules"]
+}
