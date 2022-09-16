@@ -363,7 +363,7 @@ const createTypescriptPackage = async () => {
 
     // NPM commands
     Command.install(FileSystemUtils.resolvePath(packageName));
-    log.info(`Dependecies installed successfully`);
+    log.info(`Dependencies installed successfully`);
     Command.test(packageName);
     Command.build(packageName);
     log.info(`Package build successfully...`);

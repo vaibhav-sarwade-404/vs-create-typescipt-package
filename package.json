@@ -1,6 +1,6 @@
 {
   "name": "@vs-org/create-typescript-package",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This is simple npx command to create simple typescript boilerplate package.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
